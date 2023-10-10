@@ -15,7 +15,7 @@
 
 #navbar{
     display: flex;
-    position: relative;
+    position: sticky;
 }
 
 #navbar::before{
@@ -44,6 +44,7 @@
     font-size: 25px;
     color:rgb(0, 0, 0);
     transition: all 0.4s ease-in-out;
+    font-weight: bold;
 }
 
 #navbar ul li a:hover{
@@ -103,7 +104,7 @@
     display: flex;
     flex-direction: column;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
-    width:400px;
+    width:600px;
     height: 635px;
     /* border:2px solid red; */
     margin:0px 10px 10px 10px;
@@ -143,7 +144,7 @@
 .btn:hover{
     background-color: rgba(7, 240, 7, 0.842);
     cursor: pointer;
-    box-shadow: 0 2px 1px 2px white;
+    
 }
 .center{
     text-align: center;
@@ -152,8 +153,10 @@
 #h1-secondery{
     font-size: 3.5rem;
     font-family: 'Baloo Bhai 2';
-    color: rgb(51, 50, 50);
-    text-shadow: 2px 2px 4px rgb(102, 216, 102);
+    color: rgb(19, 19, 19);
+    text-shadow: 2px 2px 2px rgb(185, 190, 185);
+    margin-top:50px;
+    margin-bottom: 10px;
 }
 .heding-secondery{
     font-family: 'Baloo Bhai 2';
